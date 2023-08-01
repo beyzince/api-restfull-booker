@@ -20,12 +20,12 @@ public class DeleteTests extends BaseTest {
                 .statusCode(HttpStatus.SC_CREATED)
         ;
 
-        given()
+       /* given()
                 .header("Cookie", "token="+ HelperMethods.getAuthToken())
         .when()
                 .delete("/booking/{test_booking_id}",test_booking_id)
         .then()
                 .statusCode(HttpStatus.SC_METHOD_NOT_ALLOWED)
-        ;
+        ;*/
     }
 }

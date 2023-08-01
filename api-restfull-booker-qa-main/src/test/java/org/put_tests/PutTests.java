@@ -20,7 +20,7 @@ public class PutTests extends BaseTest {
         int old_booking_id = old_booking.get("bookingid");
 
         JSONObject updated_booking = new JSONObject();
-        updated_booking.put("firstname", "NewJames");
+        updated_booking.put("firstname", "NewJim");
         updated_booking.put("lastname", "NewBrown");
         updated_booking.put("totalprice", "111");
         updated_booking.put("depositpaid", "true");

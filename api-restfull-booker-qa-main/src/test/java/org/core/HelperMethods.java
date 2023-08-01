@@ -31,13 +31,13 @@ public class HelperMethods extends BaseTest{
 
     public static int createNewBookingAndReturnBookingID(){
         JSONObject new_booking = new JSONObject();
-        new_booking.put("firstname", "James");
+        new_booking.put("firstname", "Sally");
         new_booking.put("lastname", "Brown");
         new_booking.put("totalprice", "111");
         new_booking.put("depositpaid", "true");
         JSONObject bookingdates = new JSONObject();
-        bookingdates.put("checkin", "2018-01-01");
-        bookingdates.put("checkout", "2019-01-01");
+        bookingdates.put("checkin", "2013-02-23");
+        bookingdates.put("checkout", "2014-10-23");
         new_booking.put("bookingdates", bookingdates);
         new_booking.put("additionalneeds", "Breakfast");
 
@@ -56,7 +56,7 @@ public class HelperMethods extends BaseTest{
     //Not working
     public static Response createNewBookingAndReturnBooking(){
         JSONObject new_booking = new JSONObject();
-        new_booking.put("firstname", "James");
+        new_booking.put("firstname", "Jim");
         new_booking.put("lastname", "Brown");
         new_booking.put("totalprice", "111");
         new_booking.put("depositpaid", "true");

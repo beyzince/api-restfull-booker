@@ -33,7 +33,7 @@ public class PostTests extends BaseTest {
     @Test
     public void testCreateBooking(){
         JSONObject new_booking = new JSONObject();
-        new_booking.put("firstname", "James");
+        new_booking.put("firstname", "Jim");
         new_booking.put("lastname", "Brown");
         new_booking.put("totalprice", "111");
         new_booking.put("depositpaid", "true");
