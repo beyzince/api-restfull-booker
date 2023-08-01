@@ -1,4 +1,4 @@
-package org.put_tests;
+package org.tests;
 
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -30,10 +30,10 @@ public class PutTests extends BaseTest {
         updated_booking.put("bookingdates", updated_bookingdates);
         updated_booking.put("additionalneeds", "Breakfast");
 
-        // Check PUT(updating) specific booking created
+        // Check PUT(updating)
         given()
                 .header("Cookie", "token="+ HelperMethods.getAuthToken())
-                //.cookie("token="+HelperMethods.getAuthToken()) NAO FUNCIONOU!
+
                 .contentType(ContentType.JSON)
                 .body(updated_booking.toString())
         .when()

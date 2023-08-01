@@ -1,4 +1,4 @@
-package org.get_tests;
+package org.tests;
 
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;

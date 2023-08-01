@@ -1,4 +1,4 @@
-package org.delete_tests;
+package org.tests;
 
 import org.apache.http.HttpStatus;
 import org.core.BaseTest;

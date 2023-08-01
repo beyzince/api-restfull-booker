@@ -1,4 +1,4 @@
-package org.post_tests;
+package org.tests;
 
 import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
